@@ -1,0 +1,124 @@
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+    font-family: 'Courier New', monospace;
+    color:	#696969;
+    background-image:url("back1.jpeg");
+    
+    }
+  
+    .start{
+        text-align: start;
+    }
+    td{
+        padding-left:10px;
+    }
+
+    div#sec{
+      
+        width: 50%;
+    }
+
+    h1{
+        font-size: 200%;
+        word-spacing: 0.05em;
+        text-align:start;
+        font-family:'Brush Script MT', cursive;
+    }
+
+    h1#side{
+        font-size: 150%;
+        word-spacing: 0.05em;
+        text-align:center;
+        font-family:'Brush Script MT', cursive;
+    }
+
+    h2{
+        text-align:start;
+        font-size: 100%;
+    }
+
+    h2#side{
+        text-align:center;
+        font-size: 100%;
+    }
+
+    .side {
+        width: 25%;
+        position: absolute;
+        z-index: 1;
+        right: 0;
+        overflow-x: hidden; 
+        padding-top: 20px;
+        top:0%;
+        margin-right: 10%;
+        border-radius: 4px;
+        
+      }
+
+    hr.not-side{
+        margin-left:0;
+        width: 70%;
+    }
+
+    p{
+        font-family:'Courier New', monospace;
+        text-indent: 50px
+    }
+
+    p.cr{
+        
+        font-family:"Comic Sans MS", cursive;
+        text-indent: 50px
+
+    }
+
+    img {
+        /* border: 5px solid 	linen; */
+        padding: 5px;
+        display: block;
+        border-radius: 4px;
+        max-height: 500px;
+        max-width: 300px;
+        
+      }
+
+      a:link {
+        color:steelblue;
+        text-align:start;
+        text-decoration: underline;
+        
+    
+        }
+
+    a:visited {
+        color: 		darkslategrey;
+        text-decoration: none
+        }
+
+    a:hover {
+        color: sandybrown;
+        }
+
+    /* https://codepen.io/clivewalker/pen/eZWxrm */
+    li::before { /* add the new bullet point */
+        display: inline-block;
+        content: '';
+        -webkit-border-radius: 0.375rem;
+        border-radius: 0.375rem;
+        height: 0.75rem;
+        width: 0.75rem;
+        margin-right: 0.5rem;
+        background-color: #bdbdbd;
+    }
+             
+    li {
+        text-indent: -0.75em; /* this is only needed if you want to align wrapped text */
+    }
+
+      .copyright {
+        text-align: center;
+      }
+
+    
