@@ -100,7 +100,8 @@ body {
     a:hover {
         color: sandybrown;
         }
-
+    
+    /* using the list , li::before and li from the website below */
     /* https://codepen.io/clivewalker/pen/eZWxrm */
     li::before { /* add the new bullet point */
         display: inline-block;

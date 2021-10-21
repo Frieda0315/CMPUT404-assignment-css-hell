@@ -1,3 +1,4 @@
+Add some original css from the web and change the css and style it 
 1. add back ground image 
 2. change the text color to grey
 3. change the Header and link, the style and color of the text
