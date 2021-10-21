@@ -1,0 +1,275 @@
+body {
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: justify;
+    background-image:url("paper.jpeg");
+    font-family: 'Trebuchet MS', sans-serif;
+    color:	#696969
+    }
+
+/* Theme paragraphs with CSS  */
+p{
+    font-family: "Gill Sans", sans-serif;
+}
+
+/* Theme header tags with CSS */
+h2#name{
+    font-size: 200%;
+    letter-spacing: 0.2em;
+    word-spacing: 0.05em;
+    text-align:end;
+    font-family:'Brush Script MT', cursive;
+    color: #4169e1;
+}
+h2{
+    font-size: 200%;
+    word-spacing: 0.05em;
+    text-align:start;
+    color: #4682b4;
+}
+
+/* Theme images and images captions with CSS */
+img {
+    border: 5px solid #8fbc8f;
+    padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+    max-height: 500px;
+    max-width: 300px;
+    
+  }
+
+h1 {
+    font-size: 300%;
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
+    letter-spacing: 0.12em;
+    word-spacing: 0.2em;
+    text-align: center;
+    font-family: 'Courier New', monospace;
+    
+    color: #6495ed}
+
+h3 {
+    font-size: 130%;
+    margin-top: 1em
+    }
+
+h4 {
+    font-size: 120%
+    }
+h5 {
+    font-size: 110%
+    }
+.no-break {
+    page-break-before: avoid
+    }
+/* for epubs */
+div.chapter {
+    page-break-before: always;
+    }
+hr {
+    width: 80%;
+    margin-top: 2em;
+    margin-bottom: 2em
+    }
+p {
+    text-indent: 1em;
+    margin-top: 0.25em;
+    margin-bottom: 0.25em
+    }
+p::first-letter {
+        font-family:'Brush Script MT', cursive;
+        font-size: 1.5rem;
+}
+p.drama {
+    text-indent: 0%;
+    margin-top: 0.5em;
+    margin-bottom: 0;
+    line-height: 1.2;
+    text-align: justify
+    }
+p.noindent {
+    text-indent: 0%
+    }
+a:link {
+    color:steelblue;
+    text-align:start;
+    text-decoration: underline;
+    
+
+    }
+a:visited {
+    color: 	dimgray;
+    text-decoration: none
+    }
+a:hover {
+    color: darkslateblue;
+    }
+
+div.c13 {
+    text-align: left
+    }
+div.c12 {
+    margin-left: 0.7em
+    }
+div.c11 {
+    text-indent: -0.7em
+    }
+div.c10 {
+    display: block;
+    font-size: 1.1em;
+    margin: 1em 0;
+    font-weight: bold
+    }
+div.c9 {
+    margin: 0.83em 0;
+    font-size: 1.1em;
+    text-align: center
+    }
+span.c8 {
+    font-size: smaller
+    }
+div.c7 {
+    display: block;
+    margin-top: 4em
+    }
+table.c6 {
+    text-align:start;
+    }
+div.c5 {
+    margin-top: 2em;
+    margin-bottom: 4em
+    }
+div.c4 {
+    display: block;
+    margin-left: 2em;
+    text-indent: -2em
+    }
+div.c3 {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 2em;
+    text-indent: -2em
+    }
+div.c2 {
+    display: block;
+    margin: 1em 0
+    }
+div.c1 {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold
+    }
+
+
+
+    hr.narrow {
+        width: 40%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        clear: both
+        }
+    hr {
+        width: 100%
+        }
+    hr.full {
+        width: 100%;
+        margin-top: 3em;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+        height: 4px;
+        border-width: 4px 0 0 0;
+        /* remove all borders except the top one */
+        border-style: solid;
+        border-color: #000;
+        clear: both
+        }
+    
+    .caption {
+        font-size: small;
+        font-weight: bold
+        }
+    blockquote {
+        font-size: large;
+        margin-left: 8%;
+        margin-right: 8%
+        }
+    blockquote.med {
+        font-size: medium;
+        margin-left: 6%;
+        margin-right: 6%
+        }
+    table {
+        font-size: large;
+        text-align: left
+        }
+    p {
+        text-indent: 4%
+        }
+    p.noindent {
+        text-indent: 0%
+        }
+    .center {
+        text-align: center
+        }
+    .ind2 {
+        margin-left: 8%
+        }
+    .ind4 {
+        margin-left: 16%
+        }
+    .ind6 {
+        margin-left: 24%
+        }
+    .ind8 {
+        margin-left: 32%
+        }
+    .ind10 {
+        margin-left: 40%
+        }
+    .ind12 {
+        margin-left: 48%
+        }
+    .ind14 {
+        margin-left: 56%
+        }
+    .ind15 {
+        margin-left: 60%
+        }
+    .ind16 {
+        margin-left: 64%
+        }
+    .ind18 {
+        margin-left: 72%
+        }
+    .ind20 {
+        margin-left: 80%
+        }
+    .jright {
+        text-align: right
+        }
+    .wide {
+        letter-spacing: 2em
+        }
+    .nowrap {
+        white-space: nowrap
+        }
+    .small {
+        font-size: 85%
+        }
+    .large {
+        font-size: 130%
+        }
+    .smallcaps {
+        font-variant: small-caps
+        }
+    
+    pre {
+        font-size: 85%
+        }
